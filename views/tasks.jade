@@ -1,0 +1,12 @@
+doctype html
+html
+    head
+        title Todo App
+    body
+        h1 Todo List
+        form(action='/add', method='post')
+            input(type='text', name='title', placeholder='tasks title')
+            input(type='text', name='description', placeholder='tasks description')
+            button(type='submit') Add tasks
+        ul
+
